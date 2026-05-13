@@ -1,0 +1,46 @@
+body {
+background-color: rgb(60, 0, 0);
+
+}
+
+h1 {
+    background-color: rgb(49, 0, 0);
+}
+
+body {
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+
+p{
+    color: #ffffff;
+}
+
+.christmy {
+    color: rgb(240, 196, 0);
+}
+
+
+.christmy{    
+    width: 500px;
+    padding: 39px;
+    margin: 10px;
+    border: 2px solid black
+}
+
+
+ 
+
+                .gallery-item {
+                  border: 1px solid rgb(254, 254, 254);
+                  /* margin and width */
+                }
