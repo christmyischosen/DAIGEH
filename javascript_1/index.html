@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cultural Cuisine Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Cormorant+Garamond:wght@300;400;600&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ───────── NAV ───────── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <span class="logo-icon">✦</span>
+      <span class="logo-text">Cultural Cuisine Explorer</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#how-it-works">How It Works</a></li>
+      <li><a href="#currency">Currency</a></li>
+      <li><a href="#restaurants">Dining</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#explore" class="nav-cta">Explore Now</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ───────── HERO ───────── -->
+  <section class="hero" id="hero">
+    <div class="hero-parallax" id="heroBg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow fade-up" data-delay="0">Your Cultural Passport Awaits</p>
+      <h1 class="hero-title">
+        <span class="word-animate">Don't Just</span>
+        <span class="word-animate">See the World.</span>
+        <span class="word-animate accent-gold">Feel It.</span>
+      </h1>
+      <p class="hero-sub fade-up" data-delay="800">
+        The cultural passport that bridges the gap between researching a destination<br>
+        and truly knowing it.
+      </p>
+      <div class="hero-buttons fade-up" data-delay="1100">
+        <a href="#about" class="btn btn-primary">
+          <span>Explore a Destination</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="https://youtu.be/5tRNJ12nSIY?si=ze3gpW5lUw-EZcY9" target="_blank" class="btn btn-ghost">
+          <span class="play-icon">▶</span>
+          <span>See How It Works</span>
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+
+    <!-- Floating ambient orbs -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </section>
+
+  <!-- ───────── ABOUT ───────── -->
+  <section class="about" id="about">
+    <div class="about-parallax" id="aboutBg"></div>
+    <div class="container">
+      <div class="section-label fade-up">Our Mission</div>
+      <h2 class="section-title fade-up">
+        <span class="word-animate">We're Not Just</span>
+        <span class="word-animate">Showing You</span>
+        <span class="word-animate">the World —</span>
+        <span class="word-animate">We're Helping You</span>
+        <span class="word-animate accent-gold">Understand It.</span>
+      </h2>
+      <div class="about-grid">
+        <div class="about-text fade-up" data-delay="200">
+          <p class="lead-text">Culture Cuisine Explorer was born from a simple frustration: that most travel research leaves you informed on the surface but unprepared at the core.</p>
+          <p>You can scroll through a thousand photos of Tokyo and still arrive not knowing how to order food, what to tip, how the subway works, or what the people around you actually value.</p>
+          <p>We built something different. A platform that uses interactive 3D tools, live cultural data, real-time currency displays, and locally-sourced food guides to close the gap between <em>knowing about</em> a place and <em>knowing</em> a place.</p>
+          <p class="tagline">This isn't just a travel website. It's your <strong>cultural passport</strong> — the thing you reach for before you pack your bag, not after you land confused.</p>
+        </div>
+        <div class="about-visual fade-up" data-delay="400">
+          <div class="empathy-map">
+            <div class="em-title">Our Explorer Thinks &amp; Feels</div>
+            <div class="em-grid">
+              <div class="em-card">
+                <div class="em-icon">💬</div>
+                <div class="em-label">Says</div>
+                <ul>
+                  <li>Travel</li>
+                  <li>Cultural Dishes</li>
+                  <li>Understanding the place</li>
+                </ul>
+              </div>
+              <div class="em-card">
+                <div class="em-icon">⚡</div>
+                <div class="em-label">Does</div>
+                <ul>
+                  <li>Food research</li>
+                  <li>Currency checks</li>
+                  <li>Live experiences</li>
+                </ul>
+              </div>
+              <div class="em-card">
+                <div class="em-icon">❤️</div>
+                <div class="em-label">Feels</div>
+                <ul>
+                  <li>Cultural feel</li>
+                  <li>At home</li>
+                  <li>Amazed</li>
+                </ul>
+              </div>
+              <div class="em-card">
+                <div class="em-icon">💡</div>
+                <div class="em-label">Thinks</div>
+                <ul>
+                  <li>Welcoming</li>
+                  <li>Amazed</li>
+                  <li>Helpful info</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── VISION ───────── -->
+  <section class="vision" id="vision">
+    <div class="container">
+      <div class="section-label fade-up" style="justify-content:center">Our Vision</div>
+      <h2 class="section-title fade-up" style="text-align:center;margin:0 auto 2rem">
+        <span class="word-animate">A World Where</span>
+        <span class="word-animate">Every Traveler</span>
+        <span class="word-animate accent-gold">Arrives Ready</span>
+      </h2>
+      <div class="vision-inner fade-up" data-delay="200">
+        <p class="vision-body">We believe the best travel experiences don't begin at the airport. They begin weeks earlier — in the curiosity, the research, the preparation, and the wonder of discovering a culture before you're even in it.</p>
+        <p class="vision-body">Culture Cuisine Explorer exists to make that preparation immersive, intuitive, and genuinely exciting. We want the journey of learning about a destination to feel as rich as the trip itself.</p>
+        <p class="vision-body">Because when you understand a culture before you arrive, you don't just visit it — you connect with it.</p>
+        <p class="vision-closing">"This isn't just a travel website. It's your cultural passport."</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── FEATURES ───────── -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-label fade-up">What We Offer</div>
+      <h2 class="section-title fade-up">
+        <span class="word-animate">Four Ways</span>
+        <span class="word-animate">We Help You</span>
+        <span class="word-animate accent-gold">Arrive Ready</span>
+      </h2>
+      <p class="section-sub fade-up">Smart tools to bring the world closer to you — before you even pack.</p>
+
+      <div class="features-grid">
+        <div class="feature-card fade-up" data-delay="0">
+          <div class="feature-icon">🗺️</div>
+          <h3>Interactive 3D Exploration</h3>
+          <p>Walk the streets before you're there. Navigate neighborhoods, explore landmarks, and develop a real spatial understanding of a city — not just a pinpoint on a map.</p>
+          <div class="feature-link">Explore <span>→</span></div>
+        </div>
+        <div class="feature-card fade-up" data-delay="150">
+          <div class="feature-icon">🍜</div>
+          <h3>Local Food Guides</h3>
+          <p>Our curated guides go deeper than "best restaurants" lists. We trace the story behind the dish — the ingredients, the history, the ritual, the etiquette.</p>
+          <div class="feature-link">Taste <span>→</span></div>
+        </div>
+        <div class="feature-card fade-up" data-delay="300">
+          <div class="feature-icon">💱</div>
+          <h3>Live Currency Intelligence</h3>
+          <p>Real-time exchange rates paired with cost-of-living context, tipping customs, and local payment habits — so you're never fumbling at the register.</p>
+          <div class="feature-link">Convert <span>→</span></div>
+        </div>
+        <div class="feature-card fade-up" data-delay="450">
+          <div class="feature-icon">🌐</div>
+          <h3>Real Cultural Data</h3>
+          <p>Language basics, social customs, religious practices, local etiquette, seasonal festivals, and communication norms — everything that makes a destination human.</p>
+          <div class="feature-link">Discover <span>→</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── HOW IT WORKS ───────── -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-label fade-up">The Process</div>
+      <h2 class="section-title fade-up">
+        <span class="word-animate">From Curiosity</span>
+        <span class="word-animate">to</span>
+        <span class="word-animate accent-gold">Confidence</span>
+        <span class="word-animate">in Three Steps</span>
+      </h2>
+      <div class="steps-grid">
+        <div class="step-card fade-up" data-delay="0">
+          <div class="step-num">01</div>
+          <h3>Choose Your Destination</h3>
+          <p>Search any city or country in the world. Our platform pulls together everything you need to know — culture, cuisine, currency, and street-level 3D exploration — in one clean, organized view.</p>
+        </div>
+        <div class="step-card fade-up" data-delay="200">
+          <div class="step-num">02</div>
+          <h3>Explore Before You Arrive</h3>
+          <p>Dive into interactive 3D neighborhoods, browse curated food guides, check live exchange rates, and absorb cultural context that actually prepares you — not just informs you.</p>
+        </div>
+        <div class="step-card fade-up" data-delay="400">
+          <div class="step-num">03</div>
+          <h3>Arrive Like a Local</h3>
+          <p>Land with knowledge, context, and confidence. Know how to navigate, what to eat, how to communicate, and what to expect. Experience the place fully — because you understood it before you got there.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── CURRENCY ───────── -->
+  <section class="currency" id="currency">
+    <div class="container">
+      <div class="section-label fade-up">Live Rates</div>
+      <h2 class="section-title fade-up">
+        <span class="word-animate">Know Exactly</span>
+        <span class="word-animate">What You'll</span>
+        <span class="word-animate accent-gold">Spend</span>
+      </h2>
+      <p class="section-sub fade-up">Type an amount, pick your destination — see it instantly in the local currency.</p>
+
+      <div class="currency-widget fade-up" data-delay="200">
+        <div class="currency-row">
+          <div class="cur-field">
+            <label for="cur-amount">Amount</label>
+            <input type="number" id="cur-amount" value="100" min="0" step="any" placeholder="100" />
+          </div>
+          <div class="cur-field">
+            <label for="cur-from">Your Currency</label>
+            <select id="cur-from"></select>
+          </div>
+          <button class="cur-swap" id="cur-swap" title="Swap currencies">⇄</button>
+          <div class="cur-field">
+            <label for="cur-to">Destination Currency</label>
+            <select id="cur-to"></select>
+          </div>
+          <button class="btn btn-primary" id="cur-convert">
+            <span>Convert</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+        <div class="cur-result" id="cur-result">
+          <div class="cur-placeholder">Enter an amount and hit Convert to see the live rate.</div>
+        </div>
+      </div>
+
+      <div class="currency-popular fade-up" data-delay="350">
+        <span>Quick picks:</span>
+        <button class="cur-chip" data-to="EUR">🇫🇷 EUR — France / Europe</button>
+        <button class="cur-chip" data-to="GBP">🇬🇧 GBP — UK</button>
+        <button class="cur-chip" data-to="JPY">🇯🇵 JPY — Japan</button>
+        <button class="cur-chip" data-to="MXN">🇲🇽 MXN — Mexico</button>
+        <button class="cur-chip" data-to="THB">🇹🇭 THB — Thailand</button>
+        <button class="cur-chip" data-to="IDR">🇮🇩 IDR — Bali</button>
+        <button class="cur-chip" data-to="AUD">🇦🇺 AUD — Australia</button>
+        <button class="cur-chip" data-to="SGD">🇸🇬 SGD — Singapore</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── AUDIENCE ───────── -->
+  <section class="audience" id="audience">
+    <div class="container">
+      <div class="section-label fade-up">Built For</div>
+      <h2 class="section-title fade-up">
+        <span class="word-animate">For Everyone</span>
+        <span class="word-animate">Who Wants</span>
+        <span class="word-animate accent-gold">More</span>
+        <span class="word-animate">Than a Vacation</span>
+      </h2>
+
+      <div class="audience-grid">
+        <div class="audience-card fade-up" data-delay="0">
+          <div class="audience-num">01</div>
+          <div class="audience-icon">🌍</div>
+          <h3>The Curious Traveler</h3>
+          <p>You don't just want to see a place — you want to <em>get</em> it. The history, the people, the way of life. Culture Cuisine Explorer gives you depth before departure.</p>
+          <a href="#" class="audience-link">Dive Into Culture →</a>
+        </div>
+        <div class="audience-card fade-up" data-delay="150">
+          <div class="audience-num">02</div>
+          <div class="audience-icon">🍽️</div>
+          <h3>The Dedicated Foodie</h3>
+          <p>For you, travel <em>is</em> the food. We give you the full picture — what to eat, where to find it, and the story that makes it worth tasting.</p>
+          <a href="#" class="audience-link">Explore Food Guides →</a>
+        </div>
+        <div class="audience-card fade-up" data-delay="300">
+          <div class="audience-num">03</div>
+          <div class="audience-icon">📋</div>
+          <h3>The Detail-Oriented Planner</h3>
+          <p>You want to know everything before you go. Currency, customs, costs, culture. We organize all of it so you can plan with confidence and arrive without surprises.</p>
+          <a href="#" class="audience-link">Plan with Confidence →</a>
+        </div>
+        <div class="audience-card fade-up" data-delay="450">
+          <div class="audience-num">04</div>
+          <div class="audience-icon">🥽</div>
+          <h3>The Headfirst Adventurer</h3>
+          <p>You book the flight first and ask questions later. We're the questions — answered and ready whenever you need them.</p>
+          <a href="#" class="audience-link">Try the Tools →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── RESTAURANTS ───────── -->
+  <section class="restaurants" id="restaurants">
+    <div class="resto-banner">
+      <img src="restaurant.jpg" alt="Tropical restaurant dining hall" class="resto-banner-img" />
+      <div class="resto-banner-overlay">
+        <p class="hero-eyebrow" style="opacity:1">Dining By Destination</p>
+        <h2 class="resto-banner-title">Find Your Table</h2>
+        <p class="resto-banner-sub">Every destination has a dining culture waiting to be discovered.</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="section-label fade-up">Restaurant Guides</div>
+      <h2 class="section-title fade-up">
+        <span class="word-animate">Eat Like</span>
+        <span class="word-animate">a</span>
+        <span class="word-animate accent-gold">Local</span>
+      </h2>
+      <p class="section-sub fade-up">Tap a destination to explore its restaurant culture, must-try dishes, and dining etiquette.</p>
+      <div class="resto-grid" id="resto-grid"></div>
+      <div class="resto-detail" id="resto-detail"></div>
+    </div>
+  </section>
+
+  <!-- ───────── GALLERY ───────── -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-label fade-up">Visual Journey</div>
+      <h2 class="section-title fade-up">
+        <span class="word-animate">The</span>
+        <span class="word-animate">World</span>
+        <span class="word-animate">Is</span>
+        <span class="word-animate accent-gold">Waiting</span>
+      </h2>
+    </div>
+    <div class="gallery-track fade-up" data-delay="200">
+      <div class="gallery-item">
+        <img src="Tropical_island.jpg" alt="Tropical Island aerial view" />
+        <div class="gallery-caption">
+          <span class="caption-tag">Destination</span>
+          <p>Tropical Paradise</p>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="barbados.jpg" alt="Barbados road through palms" />
+        <div class="gallery-caption">
+          <span class="caption-tag">Culture</span>
+          <p>Barbados</p>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="monkey.jpg" alt="Monkey in jungle" />
+        <div class="gallery-caption">
+          <span class="caption-tag">Wildlife</span>
+          <p>Wild Encounters</p>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="Tropical_Island_traveler.jpg" alt="Traveler overlooking lake" />
+        <div class="gallery-caption">
+          <span class="caption-tag">Experience</span>
+          <p>A Traveler's Moment</p>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="restaurant.jpg" alt="Tropical restaurant dining hall" />
+        <div class="gallery-caption">
+          <span class="caption-tag">Dining</span>
+          <p>The Local Table</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── FAQ ───────── -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-label fade-up">Questions</div>
+      <h2 class="section-title fade-up">
+        <span class="word-animate">Everything</span>
+        <span class="word-animate">You</span>
+        <span class="word-animate accent-gold">Need to Know</span>
+      </h2>
+      <div class="faq-list fade-up" data-delay="200">
+        <details class="faq-item">
+          <summary>What destinations are available?</summary>
+          <p class="faq-answer">We're launching with a curated selection of top global destinations and expanding rapidly. Search your destination — if it's not live yet, you can join the waitlist for early access when it drops.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Is the currency data live?</summary>
+          <p class="faq-answer">Yes. Our currency display pulls real-time exchange rates so the numbers you see reflect what you'll actually encounter when you land.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Do I need an account to use it?</summary>
+          <p class="faq-answer">You can explore freely without an account. Creating an account lets you save destinations, bookmark food guides, and personalize your cultural passport.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Is this for first-time travelers or experienced ones?</summary>
+          <p class="faq-answer">Both. First-timers use it to build confidence before unfamiliar destinations. Experienced travelers use it to go deeper than they normally would.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── CTA ───────── -->
+  <section class="cta-section" id="explore">
+    <div class="cta-parallax" id="ctaBg"></div>
+    <div class="cta-overlay"></div>
+    <div class="container cta-inner">
+      <p class="hero-eyebrow fade-up">"Travel is more than places."</p>
+      <h2 class="cta-title fade-up">
+        <span class="word-animate">It's People,</span>
+        <span class="word-animate">Traditions,</span>
+        <span class="word-animate">and</span>
+        <span class="word-animate accent-gold">Flavors</span>
+        <span class="word-animate">That Stay With You.</span>
+      </h2>
+      <div class="fade-up" data-delay="400">
+        <a href="https://youtu.be/5tRNJ12nSIY?si=ze3gpW5lUw-EZcY9" target="_blank" class="btn btn-primary btn-large">
+          <span>Begin Your Journey</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── FOOTER ───────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="logo-icon">✦</span>
+          <span class="logo-text">Cultural Cuisine Explorer</span>
+        </div>
+        <div class="footer-tagline">Your Cultural Passport — Explore Deeper, Arrive Ready.</div>
+      </div>
+      <div class="footer-links">
+        <a href="#">Explore</a>
+        <a href="#">Features</a>
+        <a href="#">Food Guides</a>
+        <a href="#">Currency</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Culture Cuisine Explorer · All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
